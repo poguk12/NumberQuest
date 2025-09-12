@@ -2,7 +2,7 @@ import random
 
 qwer = True
 
-print("Угадай число от 1 до 10!")
+print("Угадай число от 1 до 1000!")
 
 randomInt = random.randint(1, 11)
 
@@ -16,9 +16,9 @@ while(qwer):
     x = int(input())
 
     if (sravnit(x, randomInt) == True):
-        print("Вы угадали!")
+        print("ВЫ УГАДАЛИ!")
         qwer = False
     else:
-        print("Вы не угадали! Попробуйте еще!")
+        print("ВЫ НЕ УГАДАЛИ! ПОПРОБУЙСТЕ ЕЩЕ РАZЗЗЗ!")
 
 print("date 12/09/25")
