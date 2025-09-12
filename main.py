@@ -1,7 +1,13 @@
+from faker import Faker
 import random
 
 qwer = True
 
+fake = Faker()  
+
+print(fake.name(), fake.address())
+
+'''
 print("Угадай число от 1 до 10!")
 
 randomInt = random.randint(1, 11)
@@ -19,6 +25,8 @@ while(qwer):
         print("Вы угадали!")
         qwer = False
     else:
+        # TODO: Добавить проверку на пустой код
         print("Вы не угадали! Попробуйте еще!")
 
 print("date 12/09/25")
+'''
